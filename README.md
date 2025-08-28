@@ -1,5 +1,5 @@
 # Funiture-Sales-Performance
-This project analyzes a furniture sales performance for 2017 vs 2016 using an interactive Excel dashboard. It explores sales and profit trends, top-selling states and cities, shipping modes, and product categories, uncovering insights to drive data‑driven business decisions.
+This project analyzes the furniture sales performance for 2017 vs 2016 using an interactive Excel dashboard. It explores sales and profit trends, top-selling states and cities, shipping modes, and product categories, uncovering insights to drive data‑driven business decisions.
 
 ---
 
@@ -19,30 +19,33 @@ This project analyzes a furniture sales performance for 2017 vs 2016 using an in
 ---
 
 ## Overview
-This interactive dashboard comprehensively analyses traffic collisions across New York City. It is designed to help stakeholders—such as city planners, transportation officials, safety advocates, and the general public—better understand collision patterns, identify high-risk areas, and support data-driven decisions to enhance road safety.
+This interactive Excel dashboard analyzes U.S. furniture sales performance (with 2016–2017 comparisons). It helps stakeholders such as sales leaders, category managers, operations, and finance understand sales, profit, product mix, customer segments, geographies, and shipping modes to support data-driven decisions.
 
 ---
 
 ## Raw Data
-The raw data for this dashboard includes a comprehensive dataset of the NYC Road Accident dataset. It consists of the following fields:
+The raw data for this dashboard includes a comprehensive dataset of the furniture sales dataset. It consists of the following fields:
 
-1. **Collison ID**: A unique identifier for each collision record.
-2. **Date**: The date on which the collision occurred.
-3. **Time**: The specific time the collision happened.
-4. **Borough**: The borough (e.g., Brooklyn, Queens, Bronx, etc.) where the collision occurred.
-5. **Zip Code**: The zip code of the location where the accident took place.
-6. **Latitude**: The latitude coordinate for the accident location.
-7. **Longitude**: The longitude coordinate for the accident location.
-8. **Street Name**: The primary street name where the accident occurred.
-9. **Number of Persons Injured**: Total number of individuals injured in the accident.
-10. **Number of Persons Killed**: Total number of individuals who died as a result of the accident.
-11. **Number of Pedestrians Injured**: Number of injured individuals who were pedestrians.
-12. **Number of Pedestrians Killed**: Number of pedestrians who died in the accident.
-13. **Number of Cyclist Injured**: Number of injured individuals who were riding bicycles.
-14. **Number of Cyclist Killed**: Number of cyclists who were killed.
-15. **Number of Motorist Injured**: Number of motorists injured in the accident.
-16. **Number of Motorist Killed**: Number of motorists who died in the accident.
-
+1. **Order ID**: Unique identifier for each order.
+2. **Order Date**: Date the order was placed.
+3. **Ship Date**: Date the order was shipped.
+4. **Ship Mode**: Fulfillment method (e.g., First Class, Second Class).
+5. **Customer ID**: Unique identifier for each customer.
+6. **Customer Name**: Customer’s full name.
+7. **Segment**: Customer segment (Consumer, Corporate, Home Office).
+8. **Country**: Country of the order (U.S.).
+9. **City**: City where the order was delivered.
+10. **State**: State where the order was delivered.
+11. **Region**: U.S. region (e.g., West, East, Central, South).
+12. **Category**: Top-level product category (e.g., Furniture).
+13. **Sub-Category**: Product sub-category (e.g., Chairs, Bookcases, Tables).
+14. **Product Name**: Descriptive product name.
+15. **Sales**: Revenue from the line item.
+16. **Quantity**: Units sold in the line item.
+17. **Product ID**: Unique identifier for each product.
+18. **Profit**: Profit from the line item (can be negative).
+19. **Month**: Month label derived from Order Date for time analysis.
+    
 ---
 
 ### Data Cleaning Process in Power Query
