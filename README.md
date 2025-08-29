@@ -49,23 +49,25 @@ The raw data for this dashboard includes a comprehensive dataset of the furnitur
 ---
 
 ### Data Cleaning Process in Power Query
-- **Removed Duplicates**: Identified and removed duplicate rows based on Collision ID to ensure each collision record is unique.
-- **Time Data Type**: Changed the time data type from Time & Date to Time only.
-- **Null**: Changed the Null values in the Borough, Street Name and Contributing factor column to "Unknown or Unspecified".
-- **Find and Replace**: Used the Find and Replace to reduce the contents of the "Vehicle" and "Contributing Factors" columns.
+- **Removed Duplicates**: Ensured the uniqueness of records by checking against Order ID and Product ID.
+- **Data Types**: Converted columns such as Order Date and Ship Date to proper Date format, and ensured Sales, Quantity, and Profit were numeric.
+- **Null Handling**: Replaced missing values in categorical fields (e.g., City, State, Region) with “Unknown”.
+- **Derived Columns**: Extracted Month and Year from Order Date for time-series analysis.
+- **Text Standardization**: Cleaned up inconsistent entries in Category and Sub-Category fields for accurate grouping.
 
 ---
 
 ## Dashboard Features
-- **Interactive Filters**: Users can slice and explore the data by borough, vehicle type, contributing factors, month, and injury/fatality type for flexible, in-depth analysis.
-- **Visualizations**: The dashboard incorporates bar charts, pie charts, stacked columns, and heat maps to clearly display accident trends, contributing causes, and spatial distribution.
-- **Custom Groupings**: Vehicle types and contributing factors were grouped into meaningful categories (e.g., Passenger, Commercial, Unknown) to simplify interpretation.
-- **Time-Based Analysis**: Monthly and hourly trend graphs allow users to detect seasonal patterns and peak collision times.
-- **Highlight Cards (KPIs)**: Summary cards show total collisions, injuries, and fatalities, providing an instant snapshot of the overall impact.
-- **User-Centric Design**: Custom color schemes, consistent font styles, and intuitive slicer layouts were applied to ensure clarity, readability, and visual appeal.
-- **Responsive Insights**: All charts dynamically update based on selected filters, helping users draw targeted conclusions based on specific scenarios.
-
-![NYC_ROAD_ACCIDENT_DASHBOARD]("")
+- **Interactive Filters**: Users can explore data by Region, State, City, Category, Sub-Category, and Ship Mode for flexible analysis.
+- **Visualizations**: The dashboard includes trend lines, bar charts, pie charts, and maps to display sales distribution, profit patterns, and shipping insights.
+- **KPI Highlight Cards**: At-a-glance metrics for Total Sales, Total Profit, Quantity Sold, and YoY comparisons.
+- **Category & Product Analysis**: Breakdowns by category and sub-category reveal top and bottom performers, including loss-making products.
+- **Geographic Insights**:State and city level maps highlight sales hotspots and underperforming regions.
+- **Customer Segments**: Analysis by Consumer, Corporate, and Home Office segments to uncover profitability trends.
+- **Shipping Performance**: Comparison of Ship Modes (First Class, Second Class, Standard Class, Same Day) to evaluate cost vs. margin trade-offs.
+- **Time-Based Trends**: Monthly sales and profit charts highlight seasonal patterns and growth opportunities.
+- **User-Centric Design**: Clean layout, consistent formatting, and Excel slicers ensure clarity and easy exploration.
+- **Dynamic Insights**: All visuals update instantly based on user selections, supporting scenario-based decision making.
 
 ---
 
