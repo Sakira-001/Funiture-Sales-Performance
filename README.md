@@ -72,44 +72,38 @@ The raw data for this dashboard includes a comprehensive dataset of the furnitur
 ---
 
 ## Key Metrics
-1. **Total Reported Collisions**: 91,286
-2. **Total Injuries**: 45,317
-   - Persons Injured: 37,198
-   - Pedestrians Injured: 4,211
-   - Cyclists Injured: 1,932
-   - Motorists Injured: 1,976
-3. **Total Fatalities**: 276
-   - Persons Killed: 213
-   - Pedestrians Killed: 39
-   - Cyclists Killed: 12
-   - Motorists Killed: 12
-4. **Borough with Most Collisions**: Brooklyn
-5. **Most Common Contributing Factor**: Driver Inattention/Distraction
-6. **Peak Collision Hours**: Between 3 PM – 6 PM
-7. **Collisions by Vehicle Type**:
-   - Passenger Vehicles: 58%
-   - Commercial Vehicles: 18%
-   - Two-Wheelers (Motorcycles, Bicycles): 9%
-   - Emergency Services: 3%
-   - Others: 6%
-   - Unknown/Not Reported: 6%
-8. **Seasonal Pattern**: Highest collisions recorded in October, lowest in February
-9. **Most Affected Demographic**: Motorists and pedestrians injured in Brooklyn and Queens
-10. **Location Hotspots**: Most incidents occurred in densely populated areas with high traffic volume
+1. **Total Sales**: $733,215
+2. **Total Profit**: $97,790
+   - Profit Margin: ~13%
+3. **Total Quantity Sold**: 9,994 units
+4. **Top Category by Sales: Furniture** ($250K+)
+5. **Top Sub-Category by Sales: Chairs** (highest revenue contributor)
+6. **Most Profitable Sub-Category**: Copiers
+7. **Least Profitable Sub-Category**: Tables (frequent losses despite high sales)
+8. **Top Region by Sales**: West (largest revenue and profit contributor)
+9. **Top State by Sales**: California
+10. **Most Used Ship Mode**: Standard Class (~60% of all orders)
+11. **Customer Segment with Highest Sales**: Consumer
+12. **Seasonal Pattern**: Sales peak in November & December (holiday effect), lowest in February.
 
 ---
 
 ## Insights & Conclusions
-1. **Leading Causes of Collisions**:
-   - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
-   - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
-2. **Fatalities Across Boroughs**:
-   - Brooklyn has the highest fatalities among pedestrians, motorists, and cyclists.
-   - Motorists experience the most fatalities overall, suggesting that driver safety improvements are needed.
-3. **Vehicle Types in Collisions**:
-   - Passenger vehicles account for the highest number of collisions, far exceeding any other vehicle type across all boroughs.
-   - Bicycles, taxis, motorcycles, and buses contribute to accidents but at significantly lower numbers compared to passenger vehicles.
-   - Brooklyn leads in overall collisions, followed by Queens and the Bronx, possibly due to higher traffic density and population.
+1. **Category Performance**:
+   - Furniture and Technology drive the bulk of revenue, but Office Supplies contributes steady profits with less risk.
+   - Tables stand out as a loss-making sub-category, suggesting pricing or discount issues.
+2. **Regional Performance**:
+   - The West region leads both in sales and profits, driven by California.
+   - The South lags in profitability, indicating possible cost or discounting challenges.
+3. **Shipping Mode Impact**:
+   - Standard Class dominates order volume but drags profitability.
+   - First Class and Same Day orders, though fewer, generate higher profit margins per unit.
+4. **Customer Segments**:
+   - Consumer segment contributes the most revenue.
+   - Corporate customers show stronger profitability despite lower overall sales.
+5. **Seasonal Trends**:
+   - Strong spikes in November–December highlight seasonal opportunities (holiday promotions).
+   - Early months (Jan–Feb) are consistently weak, suggesting room for off-season sales strategies.
 
 ---
 
